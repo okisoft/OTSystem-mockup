@@ -1,0 +1,21 @@
+/*body {
+	background-image: url("../img/starlighter.jpg");
+}*/
+
+.content-box {
+	text-align: center;
+	margin: 10px 20px;
+}
+
+.contentbox .row {
+	margin: 10px 10px;
+	text-align: center;
+}
+
+.line-btns {
+	margin: 5px 50px;
+}
+
+.line-btn {
+	margin: 5px 10px;
+}

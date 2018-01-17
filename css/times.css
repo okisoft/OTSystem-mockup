@@ -1,0 +1,16 @@
+.content-box .times {
+	margin: 10px 0px;
+}
+
+.content-box .times-title {
+	margin: 5px auto;
+}
+
+.content-box .btn-add {
+}
+
+/* editTimes.html */
+.content-box .btn-one-row {
+	width: 550px;
+	margin: 5px 0px;
+}
