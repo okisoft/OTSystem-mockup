@@ -1,0 +1,18 @@
+
+.jugyomei {
+	font-size: 24px;
+}
+
+.workcheck{
+	padding: 10px;
+	border: solid 1px #000000;
+	border-radius: 10px;
+	font-size: 20px;
+}
+input[type=radio] {
+	width: 20px;
+	height: 20px;
+}
+input[type=text]{
+	font-size: 24px;
+}

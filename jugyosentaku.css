@@ -1,0 +1,17 @@
+table {
+	border-collapse: collapse;
+}
+td {
+	border: solid 1px;
+	padding: 0.5em;
+}
+button.button1 {
+	float: right;
+	font-size: 0.8em;
+}
+button.button0 {
+	font-size: 1.4em;
+}
+button.button2 {
+	font-size: 1.2em;
+}
