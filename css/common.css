@@ -1,10 +1,27 @@
-/*body {
-	background-image: url("../img/starlighter.jpg");
-}*/
+body {
+	background-image: url("../img/background-white.jpg");
+}
+
+.text-white {
+	color: #FFFFFF;
+}
+
+header .text-white {
+	color: #FFFFFF;
+  	text-shadow: 3px 3px 1px #777777;
+}
+
+.page-title {
+	float: left;
+}
 
 .content-box {
 	text-align: center;
 	margin: 10px 20px;
+}
+
+.content-box .btn-add {
+	margin: 20px 0px;
 }
 
 .contentbox .row {
@@ -13,9 +30,9 @@
 }
 
 .line-btns {
-	margin: 5px 50px;
+	margin: 25px 50px;
 }
 
 .line-btn {
-	margin: 5px 10px;
+	margin: 5px 5px;
 }

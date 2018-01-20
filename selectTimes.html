@@ -15,6 +15,9 @@
 	<link href="assets/css/paper-kit.css?v=2.1.0" rel="stylesheet"/>
 	<link href="assets/css/demo.css" rel="stylesheet" />
 
+	<link href="./css/common.css" rel="stylesheet" />
+	<link href="./css/times.css" rel="stylesheet" />
+
 	<!-- original CSS -->
 	<link href="./css/common.css" rel="stylesheet" />
 	<link href="./css/times.css" rel="stylesheet" />
@@ -26,10 +29,11 @@
 </head>
 
 <body>
+	<div id="header"><!-- include header.html --></div>
 	<div class="container-fluid">
 		<div class="content-box">
 			<div class="row">
-				<h2 class="page-title">詳細設定</h2>
+				<h2 class="page-title">授業回選択</h2>
 			</div><!-- row -->
 
 			<div class="row">
@@ -40,18 +44,8 @@
 				<h5 class="times col-lg-12">第256回</h5>
 			</div><!-- row -->
 
-			<div class="row">				
-				<div class="times-title col-11 col-lg-6">
-				    <div class="form-group">
-				        <input type="text" class="form-control" placeholder="授業タイトルを入力してください" maxlength="32" size="32">
-				    </div>
-				</div>
-			</div><!-- row -->
-
-			<div class="row justify-content-center">
-				<button type="button" class="btn btn-success col-7 col-lg-5">
-					<i class="nc-icon nc-simple-add" aria-hidden="true"></i>&nbsp;授業を追加する
-				</button>
+			<div class="row">
+				<button type="button" class="btn btn-lg btn-success times-title col-11 col-lg-6">野外授業：昆虫採集</button>
 			</div><!-- row -->
 
 		</div><!-- content-box -->
@@ -59,6 +53,9 @@
 		<div class="row justify-content-end line-btns">
 			<div class="col-4 col-lg-auto">
 				<button type="button" class="btn btn-success line-btn"><i class="nc-icon nc-badge" aria-hidden="true"></i>&nbsp;グループ編集</button>
+			</div>
+			<div class="col-4 col-lg-auto">
+				<button type="button" class="btn btn-success line-btn"><i class="nc-icon nc-single-copy-04" aria-hidden="true"></i>&nbsp;質問閲覧・編集</button>
 			</div>
 			<div class="col-2 col-lg-auto">
 				<button type="button" class="btn btn-success line-btn"><i class="nc-icon nc-minimal-left" aria-hidden="true"></i>&nbsp;戻る</button>
